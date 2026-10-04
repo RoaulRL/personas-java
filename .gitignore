@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Archivos del sistema
+.DS_Store
+
+# Configuración de IDE
+.classpath
+.project
+.settings/
+
+# Archivos generados
+cp.txt
+
+# Archivos temporales de editores
+*.swp
+*.swo
