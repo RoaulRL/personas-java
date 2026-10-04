@@ -2,15 +2,15 @@
 
 ## 1. Descripción
 
-El proyecto consiste en implementar un sistema de registro de personas
-utilizando el lenguaje de programación Java.
+El proyecto consiste en implementar un sistema para registrar y administrar
+información de personas utilizando el lenguaje de programación Java.
 
-La implementación toma como base la actividad académica relacionada con
-la creación y utilización de clases y objetos en Java.
+El proyecto fue desarrollado como parte de una actividad académica
+relacionada con la creación y utilización de clases y objetos en Java.
 
 Como extensión de la actividad, se desarrolló una aplicación web sencilla
 que permite registrar, consultar, editar y eliminar personas mediante una
-interfaz gráfica en el navegador.
+interfaz web.
 
 La información se almacena de forma persistente en una base de datos
 SQLite local.
@@ -43,15 +43,15 @@ para conservar la información.
 El proyecto deberá implementar una clase `Persona` para representar la
 información de una persona.
 
-La clase contiene:
+La clase contiene los siguientes atributos:
 
 - `id`
 - `nombre`
 - `apellido`
 - `edad`
 
-La clase utiliza constructores para inicializar objetos y métodos de acceso
-(getters y setters) para consultar y modificar sus atributos.
+La clase utiliza constructores para inicializar objetos y métodos de
+acceso (getters y setters) para consultar y modificar sus atributos.
 
 ### RA-02 — Creación de objetos
 
@@ -76,9 +76,8 @@ para acceder y modificar la información de los objetos.
 
 ### RA-05 — Registro de cinco personas
 
-El proyecto deberá permitir registrar al menos cinco personas como
-evidencia del funcionamiento de las clases, objetos y almacenamiento de
-información.
+El proyecto deberá permitir registrar cinco personas como evidencia del
+funcionamiento de las clases, objetos y almacenamiento de información.
 
 ### RA-06 — Evidencia
 
@@ -88,6 +87,9 @@ visualización de las cinco personas.
 ---
 
 ## 4. Requisitos funcionales
+
+Los siguientes requisitos corresponden a las funcionalidades implementadas
+en el proyecto para complementar la actividad académica.
 
 ### RF-01 — Registro de personas
 
@@ -102,7 +104,7 @@ El formulario web deberá permitir ingresar:
 - Apellido.
 - Edad.
 
-Los campos serán validados antes de enviar la información al servidor.
+Los campos deberán validarse antes de enviar la información al servidor.
 
 ### RF-03 — Creación de objetos Persona
 
@@ -264,4 +266,5 @@ personas-java/
 │
 ├── pom.xml
 ├── requisitos.md
-└── .gitignore
+├── .gitignore
+└── README.md

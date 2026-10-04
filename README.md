@@ -26,7 +26,7 @@ La aplicación permite:
 Las operaciones CRUD utilizadas son:
 
 | Operación | Método HTTP |
-|-----------|-------------|
+| --- | --- |
 | Crear | `POST` |
 | Consultar | `GET` |
 | Actualizar | `PUT` |
@@ -75,6 +75,7 @@ personas-java/
 ├── .gitignore
 └── README.md
 ```
+
 ---
 
 ## 🧩 Organización de las clases
@@ -356,6 +357,6 @@ local para complementar los objetivos de la actividad.
 
 ## 👤 Autor
 
-**Raúl Rojas López**
+Raúl Rojas López
 
 Proyecto académico — Sistema de Registro de Personas.
